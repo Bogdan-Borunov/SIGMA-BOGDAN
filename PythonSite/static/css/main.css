@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    height: 500px;
+    background-image: url('https://www.vizarti.ru/wp-content/uploads/2018/04/web.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Фиксирует фон при прокрутке */
+}
+
+h1 {
+    font-family: 'Arial', sans-serif; /* Шрифт */
+    font-size: 3rem; /* Размер шрифта */
+    font-weight: bold; /* Жирность шрифта */
+    color: #000000; /* Цвет текста */
+    text-align: center; /* Выравнивание по центру */
+    text-transform: uppercase; /* Преобразование текста в верхний регистр */
+    letter-spacing: 2px; /* Расстояние между буквами */
+    background: linear-gradient(45deg, #000000, #000000); /* Градиентный фон */
+    -webkit-background-clip: text; /* Клипирование фона по тексту для градиента */
+    -webkit-text-fill-color: transparent; /* Прозрачность текста для градиента */
+    padding: 20px; /* Отступы вокруг текста */
+    border-radius: 10px; /* Скругленные углы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
+    margin: 0; /* Удаление отступов по умолчанию */
+}
+
+img {
+	height: 250px;
+	border-radius: 10px;
+}
+
+h2 {
+	font-family: 'Arial', sans-serif;
+	font-size: 3rem;
+    font-weight: bold;
+	margin: 20px;
+	padding: 20px;
+	background-color: antiquewhite;
+	border: 1px solid;
+	border-radius: 17px;
+	width: max-content;
+}
+
+
